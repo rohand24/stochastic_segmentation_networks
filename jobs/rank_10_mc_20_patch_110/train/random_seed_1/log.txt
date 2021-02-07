@@ -1,0 +1,267 @@
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:46:32,708---------------------------------------------------------------------------
+Training epoch 0/19 completed in 70s
+loss: 972336.2500	  
+FOREGROUND          :	accuracy: 0.8569	   precision: 0.6592	  recall: 0.6283	     f1_score: 0.6283	   
+NECROTIC CORE       :	accuracy: 0.7753	   precision: 0.3246	  recall: 0.4104	     f1_score: 0.4104	   
+OEDEMA              :	accuracy: 0.7753	   precision: 0.4555	  recall: 0.4266	     f1_score: 0.4266	   
+ENHANCING TUMOR     :	accuracy: 0.7753	   precision: 0.6603	  recall: 0.3968	     f1_score: 0.3968	   
+logit_mean_0: 1.6727 ± 2.4411 	logit_mean_1: -1.5878 ± 1.8321	logit_mean_2: -1.3795 ± 1.7935	logit_mean_3: -3.1366 ± 2.3750	
+cov_diag_0: 0.0895 ± 0.1596	cov_diag_1: 0.1055 ± 0.1752	cov_diag_2: 0.1058 ± 0.1994	cov_diag_3: 0.1775 ± 0.2573	
+cov_factor_0: 0.6435 ± 0.7025 	cov_factor_1: -0.9208 ± 0.7809	cov_factor_2: 0.3407 ± 0.6065 	cov_factor_3: -0.5631 ± 0.5430	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:47:41,723---------------------------------------------------------------------------
+Training epoch 1/19 completed in 69s
+loss: 616205.8750	  
+FOREGROUND          :	accuracy: 0.8941	   precision: 0.7371	  recall: 0.7066	     f1_score: 0.7066	   
+NECROTIC CORE       :	accuracy: 0.8399	   precision: 0.4383	  recall: 0.3726	     f1_score: 0.3726	   
+OEDEMA              :	accuracy: 0.8399	   precision: 0.5430	  recall: 0.5793	     f1_score: 0.5793	   
+ENHANCING TUMOR     :	accuracy: 0.8399	   precision: 0.7146	  recall: 0.6287	     f1_score: 0.6287	   
+logit_mean_0: 2.9485 ± 3.1111 	logit_mean_1: -3.0291 ± 2.2914	logit_mean_2: -1.7988 ± 2.0422	logit_mean_3: -4.2885 ± 2.5212	
+cov_diag_0: 0.0030 ± 0.0092	cov_diag_1: 0.0032 ± 0.0096	cov_diag_2: 0.0030 ± 0.0101	cov_diag_3: 0.0054 ± 0.0125	
+cov_factor_0: 0.4890 ± 0.3683 	cov_factor_1: -0.8339 ± 0.6058	cov_factor_2: 0.3691 ± 0.5888 	cov_factor_3: -0.4356 ± 0.5033	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:48:50,946---------------------------------------------------------------------------
+Training epoch 2/19 completed in 69s
+loss: 620273.1875	  
+FOREGROUND          :	accuracy: 0.8915	   precision: 0.7588	  recall: 0.7687	     f1_score: 0.7687	   
+NECROTIC CORE       :	accuracy: 0.8460	   precision: 0.6160	  recall: 0.4587	     f1_score: 0.4587	   
+OEDEMA              :	accuracy: 0.8460	   precision: 0.5905	  recall: 0.6816	     f1_score: 0.6816	   
+ENHANCING TUMOR     :	accuracy: 0.8460	   precision: 0.6947	  recall: 0.7092	     f1_score: 0.7092	   
+logit_mean_0: 2.6495 ± 3.3001 	logit_mean_1: -3.4647 ± 2.7405	logit_mean_2: -1.4576 ± 2.1531	logit_mean_3: -4.3313 ± 2.8913	
+cov_diag_0: 0.0003 ± 0.0014	cov_diag_1: 0.0003 ± 0.0015	cov_diag_2: 0.0003 ± 0.0015	cov_diag_3: 0.0005 ± 0.0018	
+cov_factor_0: 0.2585 ± 0.4999 	cov_factor_1: -0.2589 ± 0.6650	cov_factor_2: 0.0289 ± 0.3968 	cov_factor_3: -0.4567 ± 0.4090	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:49:59,285---------------------------------------------------------------------------
+Training epoch 3/19 completed in 68s
+loss: 568949.0000	  
+FOREGROUND          :	accuracy: 0.9093	   precision: 0.8455	  recall: 0.7296	     f1_score: 0.7296	   
+NECROTIC CORE       :	accuracy: 0.8614	   precision: 0.6503	  recall: 0.4608	     f1_score: 0.4608	   
+OEDEMA              :	accuracy: 0.8614	   precision: 0.6133	  recall: 0.5891	     f1_score: 0.5891	   
+ENHANCING TUMOR     :	accuracy: 0.8614	   precision: 0.7558	  recall: 0.7338	     f1_score: 0.7338	   
+logit_mean_0: 3.0950 ± 3.5234 	logit_mean_1: -3.8921 ± 2.6761	logit_mean_2: -2.0384 ± 2.3030	logit_mean_3: -4.6372 ± 3.1062	
+cov_diag_0: 0.0001 ± 0.0007	cov_diag_1: 0.0001 ± 0.0007	cov_diag_2: 0.0001 ± 0.0007	cov_diag_3: 0.0001 ± 0.0009	
+cov_factor_0: 0.3276 ± 0.3232 	cov_factor_1: -0.3063 ± 0.5679	cov_factor_2: -0.5755 ± 0.4880	cov_factor_3: -0.1450 ± 0.3693	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:51:10,190---------------------------------------------------------------------------
+Training epoch 4/19 completed in 71s
+loss: 517991.1875	  
+FOREGROUND          :	accuracy: 0.9043	   precision: 0.7564	  recall: 0.8105	     f1_score: 0.8105	   
+NECROTIC CORE       :	accuracy: 0.8604	   precision: 0.4949	  recall: 0.4078	     f1_score: 0.4078	   
+OEDEMA              :	accuracy: 0.8604	   precision: 0.6146	  recall: 0.6973	     f1_score: 0.6973	   
+ENHANCING TUMOR     :	accuracy: 0.8604	   precision: 0.7245	  recall: 0.7805	     f1_score: 0.7805	   
+logit_mean_0: 2.4346 ± 3.4709 	logit_mean_1: -3.2124 ± 2.3370	logit_mean_2: -1.7064 ± 2.2853	logit_mean_3: -4.1576 ± 3.0587	
+cov_diag_0: 0.0000 ± 0.0002	cov_diag_1: 0.0000 ± 0.0002	cov_diag_2: 0.0000 ± 0.0002	cov_diag_3: 0.0000 ± 0.0002	
+cov_factor_0: 0.3139 ± 0.3733 	cov_factor_1: -0.4162 ± 0.6137	cov_factor_2: -0.2581 ± 0.4470	cov_factor_3: -0.3061 ± 0.4004	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:52:19,214---------------------------------------------------------------------------
+Training epoch 5/19 completed in 69s
+loss: 522018.8125	  
+FOREGROUND          :	accuracy: 0.9007	   precision: 0.7587	  recall: 0.7955	     f1_score: 0.7955	   
+NECROTIC CORE       :	accuracy: 0.8518	   precision: 0.5770	  recall: 0.3884	     f1_score: 0.3884	   
+OEDEMA              :	accuracy: 0.8518	   precision: 0.5722	  recall: 0.6729	     f1_score: 0.6729	   
+ENHANCING TUMOR     :	accuracy: 0.8518	   precision: 0.7159	  recall: 0.7969	     f1_score: 0.7969	   
+logit_mean_0: 2.4783 ± 3.5688 	logit_mean_1: -3.2123 ± 2.5976	logit_mean_2: -1.4417 ± 2.0663	logit_mean_3: -4.2722 ± 2.8692	
+cov_diag_0: 0.0000 ± 0.0002	cov_diag_1: 0.0000 ± 0.0002	cov_diag_2: 0.0000 ± 0.0002	cov_diag_3: 0.0000 ± 0.0003	
+cov_factor_0: -0.0454 ± 0.3716	cov_factor_1: -0.1925 ± 0.3018	cov_factor_2: 0.0674 ± 0.4102 	cov_factor_3: -0.0435 ± 0.3704	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:53:29,822---------------------------------------------------------------------------
+Training epoch 6/19 completed in 71s
+loss: 520449.8438	  
+FOREGROUND          :	accuracy: 0.9145	   precision: 0.8218	  recall: 0.8178	     f1_score: 0.8178	   
+NECROTIC CORE       :	accuracy: 0.8597	   precision: 0.5943	  recall: 0.3990	     f1_score: 0.3990	   
+OEDEMA              :	accuracy: 0.8597	   precision: 0.6192	  recall: 0.7001	     f1_score: 0.7001	   
+ENHANCING TUMOR     :	accuracy: 0.8597	   precision: 0.7444	  recall: 0.7762	     f1_score: 0.7762	   
+logit_mean_0: 2.6114 ± 3.8404 	logit_mean_1: -3.7412 ± 2.6136	logit_mean_2: -1.7929 ± 2.3249	logit_mean_3: -4.1999 ± 2.7449	
+cov_diag_0: 0.0000 ± 0.0005	cov_diag_1: 0.0000 ± 0.0004	cov_diag_2: 0.0000 ± 0.0006	cov_diag_3: 0.0000 ± 0.0006	
+cov_factor_0: -0.8613 ± 0.6595	cov_factor_1: 0.0384 ± 0.3656 	cov_factor_2: 0.4510 ± 0.3758 	cov_factor_3: 0.2339 ± 0.3519 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:54:38,140---------------------------------------------------------------------------
+Training epoch 7/19 completed in 68s
+loss: 452839.1250	  
+FOREGROUND          :	accuracy: 0.9157	   precision: 0.8195	  recall: 0.7548	     f1_score: 0.7548	   
+NECROTIC CORE       :	accuracy: 0.8803	   precision: 0.5435	  recall: 0.4264	     f1_score: 0.4264	   
+OEDEMA              :	accuracy: 0.8803	   precision: 0.6757	  recall: 0.6497	     f1_score: 0.6497	   
+ENHANCING TUMOR     :	accuracy: 0.8803	   precision: 0.7731	  recall: 0.7757	     f1_score: 0.7757	   
+logit_mean_0: 3.0788 ± 3.4724 	logit_mean_1: -3.9348 ± 3.0065	logit_mean_2: -2.0629 ± 2.2258	logit_mean_3: -4.5824 ± 2.7461	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.5687 ± 0.3323	cov_factor_1: -0.0584 ± 0.3046	cov_factor_2: 0.2867 ± 0.3917 	cov_factor_3: -0.0442 ± 0.3159	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:55:46,799---------------------------------------------------------------------------
+Training epoch 8/19 completed in 69s
+loss: 493503.6250	  
+FOREGROUND          :	accuracy: 0.9074	   precision: 0.8307	  recall: 0.7521	     f1_score: 0.7521	   
+NECROTIC CORE       :	accuracy: 0.8715	   precision: 0.5842	  recall: 0.2446	     f1_score: 0.2446	   
+OEDEMA              :	accuracy: 0.8715	   precision: 0.6843	  recall: 0.7237	     f1_score: 0.7237	   
+ENHANCING TUMOR     :	accuracy: 0.8715	   precision: 0.7569	  recall: 0.7896	     f1_score: 0.7896	   
+logit_mean_0: 2.8890 ± 3.5277 	logit_mean_1: -4.1464 ± 3.2183	logit_mean_2: -1.9147 ± 2.4547	logit_mean_3: -4.8263 ± 3.0747	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.4337 ± 0.3058	cov_factor_1: -0.0163 ± 0.3381	cov_factor_2: 0.3020 ± 0.3545 	cov_factor_3: 0.0724 ± 0.3057 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:56:55,857---------------------------------------------------------------------------
+Training epoch 9/19 completed in 69s
+loss: 540827.6875	  
+FOREGROUND          :	accuracy: 0.8988	   precision: 0.7727	  recall: 0.8041	     f1_score: 0.8041	   
+NECROTIC CORE       :	accuracy: 0.8477	   precision: 0.5242	  recall: 0.5321	     f1_score: 0.5321	   
+OEDEMA              :	accuracy: 0.8477	   precision: 0.6295	  recall: 0.6418	     f1_score: 0.6418	   
+ENHANCING TUMOR     :	accuracy: 0.8477	   precision: 0.7065	  recall: 0.7708	     f1_score: 0.7708	   
+logit_mean_0: 1.9412 ± 3.5529 	logit_mean_1: -3.3242 ± 3.4368	logit_mean_2: -1.9889 ± 2.4828	logit_mean_3: -4.1287 ± 2.9314	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.4674 ± 0.2776	cov_factor_1: 0.3285 ± 0.3041 	cov_factor_2: 0.0280 ± 0.3030 	cov_factor_3: 0.3704 ± 0.2877 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:58:05,102---------------------------------------------------------------------------
+Training epoch 10/19 completed in 69s
+loss: 461089.3125	  
+FOREGROUND          :	accuracy: 0.9233	   precision: 0.8300	  recall: 0.8318	     f1_score: 0.8318	   
+NECROTIC CORE       :	accuracy: 0.8810	   precision: 0.5080	  recall: 0.4848	     f1_score: 0.4848	   
+OEDEMA              :	accuracy: 0.8810	   precision: 0.7073	  recall: 0.7089	     f1_score: 0.7089	   
+ENHANCING TUMOR     :	accuracy: 0.8810	   precision: 0.7866	  recall: 0.8242	     f1_score: 0.8242	   
+logit_mean_0: 2.6503 ± 3.7298 	logit_mean_1: -4.0789 ± 3.6251	logit_mean_2: -2.2074 ± 2.6287	logit_mean_3: -5.1001 ± 3.3848	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.7299 ± 0.4451	cov_factor_1: 0.5480 ± 0.3793 	cov_factor_2: 0.0828 ± 0.3408 	cov_factor_3: 0.1939 ± 0.2766 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:59:13,327---------------------------------------------------------------------------
+Training epoch 11/19 completed in 68s
+loss: 466384.2188	  
+FOREGROUND          :	accuracy: 0.9166	   precision: 0.8322	  recall: 0.7830	     f1_score: 0.7830	   
+NECROTIC CORE       :	accuracy: 0.8664	   precision: 0.6271	  recall: 0.4640	     f1_score: 0.4640	   
+OEDEMA              :	accuracy: 0.8664	   precision: 0.6051	  recall: 0.6525	     f1_score: 0.6525	   
+ENHANCING TUMOR     :	accuracy: 0.8664	   precision: 0.7814	  recall: 0.7679	     f1_score: 0.7679	   
+logit_mean_0: 2.9437 ± 3.7536 	logit_mean_1: -4.6632 ± 3.9210	logit_mean_2: -2.3689 ± 2.8521	logit_mean_3: -4.6808 ± 2.8374	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.8503 ± 0.4560	cov_factor_1: 0.4261 ± 0.3826 	cov_factor_2: 0.1727 ± 0.3002 	cov_factor_3: 0.2408 ± 0.3165 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:00:24,013---------------------------------------------------------------------------
+Training epoch 12/19 completed in 71s
+loss: 504601.6562	  
+FOREGROUND          :	accuracy: 0.9213	   precision: 0.8267	  recall: 0.8246	     f1_score: 0.8246	   
+NECROTIC CORE       :	accuracy: 0.8695	   precision: 0.5148	  recall: 0.4683	     f1_score: 0.4683	   
+OEDEMA              :	accuracy: 0.8695	   precision: 0.6596	  recall: 0.6628	     f1_score: 0.6628	   
+ENHANCING TUMOR     :	accuracy: 0.8695	   precision: 0.7688	  recall: 0.8279	     f1_score: 0.8279	   
+logit_mean_0: 2.5449 ± 4.1611 	logit_mean_1: -3.9023 ± 3.7831	logit_mean_2: -2.3254 ± 2.9395	logit_mean_3: -4.7861 ± 3.4607	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.7164 ± 0.4101	cov_factor_1: 0.5074 ± 0.3979 	cov_factor_2: -0.0289 ± 0.2331	cov_factor_3: 0.1868 ± 0.3591 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:01:33,857---------------------------------------------------------------------------
+Training epoch 13/19 completed in 70s
+loss: 515198.2188	  
+FOREGROUND          :	accuracy: 0.9134	   precision: 0.8253	  recall: 0.7827	     f1_score: 0.7827	   
+NECROTIC CORE       :	accuracy: 0.8611	   precision: 0.5947	  recall: 0.4196	     f1_score: 0.4196	   
+OEDEMA              :	accuracy: 0.8611	   precision: 0.6145	  recall: 0.6813	     f1_score: 0.6813	   
+ENHANCING TUMOR     :	accuracy: 0.8611	   precision: 0.7707	  recall: 0.7059	     f1_score: 0.7059	   
+logit_mean_0: 2.5602 ± 3.9834 	logit_mean_1: -4.1593 ± 3.6429	logit_mean_2: -1.7836 ± 2.3923	logit_mean_3: -4.6071 ± 3.3664	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.7426 ± 0.4025	cov_factor_1: 0.5956 ± 0.5096 	cov_factor_2: -0.0274 ± 0.1961	cov_factor_3: -0.0653 ± 0.3240	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:02:44,053---------------------------------------------------------------------------
+Training epoch 14/19 completed in 70s
+loss: 546403.6875	  
+FOREGROUND          :	accuracy: 0.9020	   precision: 0.7798	  recall: 0.7693	     f1_score: 0.7693	   
+NECROTIC CORE       :	accuracy: 0.8536	   precision: 0.5924	  recall: 0.4392	     f1_score: 0.4392	   
+OEDEMA              :	accuracy: 0.8536	   precision: 0.5890	  recall: 0.6547	     f1_score: 0.6547	   
+ENHANCING TUMOR     :	accuracy: 0.8536	   precision: 0.7314	  recall: 0.7402	     f1_score: 0.7402	   
+logit_mean_0: 2.4620 ± 3.8076 	logit_mean_1: -3.7214 ± 3.5079	logit_mean_2: -1.7262 ± 2.1770	logit_mean_3: -4.5088 ± 3.0882	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.7087 ± 0.4699	cov_factor_1: 0.7570 ± 0.4498 	cov_factor_2: -0.2176 ± 0.1467	cov_factor_3: 0.1375 ± 0.2936 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:03:53,867---------------------------------------------------------------------------
+Training epoch 15/19 completed in 70s
+loss: 443924.0000	  
+FOREGROUND          :	accuracy: 0.9312	   precision: 0.8394	  recall: 0.8317	     f1_score: 0.8317	   
+NECROTIC CORE       :	accuracy: 0.8805	   precision: 0.5459	  recall: 0.4375	     f1_score: 0.4375	   
+OEDEMA              :	accuracy: 0.8805	   precision: 0.6573	  recall: 0.7019	     f1_score: 0.7019	   
+ENHANCING TUMOR     :	accuracy: 0.8805	   precision: 0.7696	  recall: 0.7890	     f1_score: 0.7890	   
+logit_mean_0: 2.7495 ± 4.2406 	logit_mean_1: -4.0866 ± 3.7326	logit_mean_2: -1.8671 ± 2.4404	logit_mean_3: -4.9021 ± 3.2370	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.8892 ± 0.5152	cov_factor_1: 0.8712 ± 0.4956 	cov_factor_2: -0.1147 ± 0.1836	cov_factor_3: 0.1723 ± 0.1938 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:05:02,817---------------------------------------------------------------------------
+Training epoch 16/19 completed in 69s
+loss: 485566.4062	  
+FOREGROUND          :	accuracy: 0.9208	   precision: 0.8566	  recall: 0.7862	     f1_score: 0.7862	   
+NECROTIC CORE       :	accuracy: 0.8703	   precision: 0.6861	  recall: 0.4178	     f1_score: 0.4178	   
+OEDEMA              :	accuracy: 0.8703	   precision: 0.6166	  recall: 0.6804	     f1_score: 0.6804	   
+ENHANCING TUMOR     :	accuracy: 0.8703	   precision: 0.7904	  recall: 0.7968	     f1_score: 0.7968	   
+logit_mean_0: 2.7230 ± 4.0207 	logit_mean_1: -4.2761 ± 3.7344	logit_mean_2: -1.9533 ± 2.3753	logit_mean_3: -5.0524 ± 3.5939	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.7266 ± 0.4665	cov_factor_1: 0.5405 ± 0.4130 	cov_factor_2: -0.1039 ± 0.1769	cov_factor_3: 0.0438 ± 0.2552 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:06:11,537---------------------------------------------------------------------------
+Training epoch 17/19 completed in 69s
+loss: 433963.3438	  
+FOREGROUND          :	accuracy: 0.9207	   precision: 0.8276	  recall: 0.8067	     f1_score: 0.8067	   
+NECROTIC CORE       :	accuracy: 0.8794	   precision: 0.6110	  recall: 0.5127	     f1_score: 0.5127	   
+OEDEMA              :	accuracy: 0.8794	   precision: 0.6572	  recall: 0.6835	     f1_score: 0.6835	   
+ENHANCING TUMOR     :	accuracy: 0.8794	   precision: 0.8048	  recall: 0.8014	     f1_score: 0.8014	   
+logit_mean_0: 2.7459 ± 4.1059 	logit_mean_1: -4.4411 ± 3.6809	logit_mean_2: -1.8445 ± 2.3576	logit_mean_3: -5.4428 ± 3.6329	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.6127 ± 0.4747	cov_factor_1: 0.2015 ± 0.2696 	cov_factor_2: 0.0844 ± 0.2057 	cov_factor_3: -0.0630 ± 0.3494	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:07:19,349---------------------------------------------------------------------------
+Training epoch 18/19 completed in 68s
+loss: 430818.8750	  
+FOREGROUND          :	accuracy: 0.9359	   precision: 0.8803	  recall: 0.8384	     f1_score: 0.8384	   
+NECROTIC CORE       :	accuracy: 0.8859	   precision: 0.6986	  recall: 0.5585	     f1_score: 0.5585	   
+OEDEMA              :	accuracy: 0.8859	   precision: 0.6651	  recall: 0.6953	     f1_score: 0.6953	   
+ENHANCING TUMOR     :	accuracy: 0.8859	   precision: 0.7915	  recall: 0.7887	     f1_score: 0.7887	   
+logit_mean_0: 2.9067 ± 4.4423 	logit_mean_1: -4.5308 ± 4.3327	logit_mean_2: -2.1645 ± 2.7838	logit_mean_3: -5.2479 ± 4.1468	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.4849 ± 0.3267	cov_factor_1: 0.0102 ± 0.4868 	cov_factor_2: 0.0512 ± 0.1888 	cov_factor_3: -0.0934 ± 0.4754	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:08:28,452---------------------------------------------------------------------------
+Training epoch 19/19 completed in 69s
+loss: 472292.4375	  
+FOREGROUND          :	accuracy: 0.9181	   precision: 0.8343	  recall: 0.7972	     f1_score: 0.7972	   
+NECROTIC CORE       :	accuracy: 0.8683	   precision: 0.6136	  recall: 0.4004	     f1_score: 0.4004	   
+OEDEMA              :	accuracy: 0.8683	   precision: 0.6306	  recall: 0.6918	     f1_score: 0.6918	   
+ENHANCING TUMOR     :	accuracy: 0.8683	   precision: 0.7923	  recall: 0.7894	     f1_score: 0.7894	   
+logit_mean_0: 2.8369 ± 4.6035 	logit_mean_1: -4.6177 ± 4.3636	logit_mean_2: -2.0558 ± 2.9794	logit_mean_3: -5.8953 ± 4.5252	
+cov_diag_0: 0.0000 ± 0.0001	cov_diag_1: 0.0000 ± 0.0001	cov_diag_2: 0.0000 ± 0.0001	cov_diag_3: 0.0000 ± 0.0001	
+cov_factor_0: -0.5706 ± 0.3163	cov_factor_1: -0.1205 ± 0.6330	cov_factor_2: 0.2458 ± 0.2384 	cov_factor_3: -0.0806 ± 0.4191	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:09:08,432---------------------------------------------------------------------------
+Validation epoch 19/19 completed in 40s
+loss: 344745.9375	  
+FOREGROUND          :	accuracy: 0.9224	   precision: 0.8939	  recall: 0.7983	     f1_score: 0.7983	   
+NECROTIC CORE       :	accuracy: 0.8891	   precision: 0.7382	  recall: 0.3875	     f1_score: 0.3875	   
+OEDEMA              :	accuracy: 0.8891	   precision: 0.7663	  recall: 0.8242	     f1_score: 0.8242	   
+ENHANCING TUMOR     :	accuracy: 0.8891	   precision: 0.8276	  recall: 0.8297	     f1_score: 0.8297	   
+logit_mean_0: 2.9852 ± 6.7629 	logit_mean_1: -5.0275 ± 8.2144	logit_mean_2: -2.2596 ± 5.4459	logit_mean_3: -6.1560 ± 7.4891	
+cov_diag_0: 0.0000 ± 0.0000	cov_diag_1: 0.0000 ± 0.0000	cov_diag_2: 0.0000 ± 0.0000	cov_diag_3: 0.0000 ± 0.0000	
+cov_factor_0: -0.5087 ± 0.2164	cov_factor_1: -0.0032 ± 0.5993	cov_factor_2: 0.0874 ± 0.1649 	cov_factor_3: 0.1685 ± 0.3307 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:51:26,359---------------------------------------------------------------------------
+Validation epoch 19/19 completed in 2538s
+loss: 196024.1719	  
+FOREGROUND          :	accuracy: 0.9968	   precision: 0.7817	  recall: 0.7215	     f1_score: 0.7215	   
+NECROTIC CORE       :	accuracy: 0.9958	   precision: 0.7533	  recall: 0.3139	     f1_score: 0.3139	   
+OEDEMA              :	accuracy: 0.9958	   precision: 0.6200	  recall: 0.7518	     f1_score: 0.7518	   
+ENHANCING TUMOR     :	accuracy: 0.9958	   precision: 0.8610	  recall: 0.7780	     f1_score: 0.7780	   
+logit_mean_0: 17.1317 ± 16.7589 	logit_mean_1: -22.9052 ± 24.3148	logit_mean_2: -14.1746 ± 14.9002	logit_mean_3: -22.4169 ± 21.7292	
+cov_diag_0: 0.0000 ± 0.0000	cov_diag_1: 0.0000 ± 0.0000	cov_diag_2: 0.0000 ± 0.0000	cov_diag_3: 0.0000 ± 0.0000	
+cov_factor_0: -0.0632 ± 0.1836	cov_factor_1: -0.0421 ± 0.1777	cov_factor_2: 0.0223 ± 0.0795 	cov_factor_3: 0.0003 ± 0.0774 	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 17:51:26,365---------------------------------------------------------------------------
+Training completed in 1h 6m 3s
+

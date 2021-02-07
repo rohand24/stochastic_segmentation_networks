@@ -10,9 +10,12 @@ from trainer.model_trainer import ModelTrainer
 from read_config import get_model, get_optimizer, get_loss, get_train_loader, get_valid_loader, get_test_loader, \
     get_training_hooks
 
+import pdb
+
 
 def run_job(job_dir, train_csv_path, valid_csv_path, config_file, num_epochs, device, random_seed):
     with open(config_file, 'r') as f:
+#         pdb.set_trace()
         config = json.load(f)
     if not os.path.exists(job_dir):
         os.makedirs(job_dir)

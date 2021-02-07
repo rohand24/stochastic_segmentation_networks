@@ -2,7 +2,7 @@ import models
 from trainer import losses as losses
 import torch.nn
 from torch.utils.data.dataloader import DataLoader
-from nifti.datasets import PatchWiseNiftiDataset, FullImageToOverlappingPatchesNiftiDataset, worker_init_fn
+from nifti.coronary_datasets import PatchWiseNiftiDataset, FullImageToOverlappingPatchesNiftiDataset, worker_init_fn
 from nifti.savers import NiftiPatchSaver
 import nifti.transformation
 import nifti.augmention
@@ -11,6 +11,7 @@ from trainer import metrics as trainer_metrics
 from trainer.metrics import Loss
 from trainer.metrics import SegmentationMetrics, SegmentationImageThumbs
 from trainer.hooks import TrainingEvaluator, ValidationEvaluator, ModelSaverHook, NaNLoss
+import pdb
 
 
 def get_augmentation(augmentation_dict):
@@ -25,6 +26,7 @@ def get_patch_wise_dataset(config, model, csv_path, train=True):
     key = 'training' if train else 'valid'
     input_patch_size = tuple(config[key]['input_patch_size'])
     output_patch_size = model.get_output_size(input_patch_size)
+#     pdb.set_trace()
 
     transformation = get_transformation(config['data']['transformation'])
     augmentation = get_augmentation(config['training']['augmentation']) if train else []
@@ -36,7 +38,7 @@ def get_patch_wise_dataset(config, model, csv_path, train=True):
     sampler_class = getattr(patch_samplers, sampler_type)
     sampler = sampler_class(input_patch_size, output_patch_size, **config['training']['sampler'][sampler_type])
 
-    sampling_mask = config['data']['sampling_mask'] if 'sampling_mask' in config['data'] else None
+    sampling_mask = None#config['data']['sampling_mask'] if 'sampling_mask' in config['data'] else None
     sample_weight = config['data']['sample_weight'] if 'sample_weight' in config['data'] else None
 
     dataset = PatchWiseNiftiDataset(patch_sampler=sampler,

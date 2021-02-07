@@ -1,6 +1,7 @@
 import torch
 import torch.nn.functional as F
 import time
+import pdb
 from .logger import get_logger
 
 
@@ -49,8 +50,13 @@ class ModelTrainer(object):
 
     def step(self, epoch, dataloader, is_training=True):
         self.model.train() if is_training else self.model.eval()
-        for inputs in dataloader:
-            inputs = {key: value.to(self.device) for key, value in inputs.items()}
+        for inputs_in in dataloader:
+            inputs = {}
+            for key, value in inputs_in.items():
+#                 print("Key: {}".format(key))
+#                 print("Values shape: {}".format(value.shape))
+#                 print("Values unique: {}".format(value.unique()))
+                inputs[key] =  value.to(self.device)
             self.lr_scheduler.optimizer.zero_grad()
             with torch.set_grad_enabled(is_training):
                 logits, state = self.model(**inputs)

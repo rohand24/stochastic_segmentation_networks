@@ -2,7 +2,7 @@ import os
 import torch
 import numpy as np
 import SimpleITK as sitk
-from .datasets import FullImageToOverlappingPatchesNiftiDataset
+from .coronary_datasets import FullImageToOverlappingPatchesNiftiDataset
 from .patch_samplers import get_patch_and_padding
 
 

@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:46:32,708---------------------------------------------------------------------------
+Training epoch 0/19 completed in 70s
+loss: 972336.2500	  
+FOREGROUND          :	accuracy: 0.8569	   precision: 0.6592	  recall: 0.6283	     f1_score: 0.6283	   
+NECROTIC CORE       :	accuracy: 0.7753	   precision: 0.3246	  recall: 0.4104	     f1_score: 0.4104	   
+OEDEMA              :	accuracy: 0.7753	   precision: 0.4555	  recall: 0.4266	     f1_score: 0.4266	   
+ENHANCING TUMOR     :	accuracy: 0.7753	   precision: 0.6603	  recall: 0.3968	     f1_score: 0.3968	   
+logit_mean_0: 1.6727 ± 2.4411 	logit_mean_1: -1.5878 ± 1.8321	logit_mean_2: -1.3795 ± 1.7935	logit_mean_3: -3.1366 ± 2.3750	
+cov_diag_0: 0.0895 ± 0.1596	cov_diag_1: 0.1055 ± 0.1752	cov_diag_2: 0.1058 ± 0.1994	cov_diag_3: 0.1775 ± 0.2573	
+cov_factor_0: 0.6435 ± 0.7025 	cov_factor_1: -0.9208 ± 0.7809	cov_factor_2: 0.3407 ± 0.6065 	cov_factor_3: -0.5631 ± 0.5430	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:47:41,723---------------------------------------------------------------------------
+Training epoch 1/19 completed in 69s
+loss: 616205.8750	  
+FOREGROUND          :	accuracy: 0.8941	   precision: 0.7371	  recall: 0.7066	     f1_score: 0.7066	   
+NECROTIC CORE       :	accuracy: 0.8399	   precision: 0.4383	  recall: 0.3726	     f1_score: 0.3726	   
+OEDEMA              :	accuracy: 0.8399	   precision: 0.5430	  recall: 0.5793	     f1_score: 0.5793	   
+ENHANCING TUMOR     :	accuracy: 0.8399	   precision: 0.7146	  recall: 0.6287	     f1_score: 0.6287	   
+logit_mean_0: 2.9485 ± 3.1111 	logit_mean_1: -3.0291 ± 2.2914	logit_mean_2: -1.7988 ± 2.0422	logit_mean_3: -4.2885 ± 2.5212	
+cov_diag_0: 0.0030 ± 0.0092	cov_diag_1: 0.0032 ± 0.0096	cov_diag_2: 0.0030 ± 0.0101	cov_diag_3: 0.0054 ± 0.0125	
+cov_factor_0: 0.4890 ± 0.3683 	cov_factor_1: -0.8339 ± 0.6058	cov_factor_2: 0.3691 ± 0.5888 	cov_factor_3: -0.4356 ± 0.5033	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:48:50,946---------------------------------------------------------------------------
+Training epoch 2/19 completed in 69s
+loss: 620273.1875	  
+FOREGROUND          :	accuracy: 0.8915	   precision: 0.7588	  recall: 0.7687	     f1_score: 0.7687	   
+NECROTIC CORE       :	accuracy: 0.8460	   precision: 0.6160	  recall: 0.4587	     f1_score: 0.4587	   
+OEDEMA              :	accuracy: 0.8460	   precision: 0.5905	  recall: 0.6816	     f1_score: 0.6816	   
+ENHANCING TUMOR     :	accuracy: 0.8460	   precision: 0.6947	  recall: 0.7092	     f1_score: 0.7092	   
+logit_mean_0: 2.6495 ± 3.3001 	logit_mean_1: -3.4647 ± 2.7405	logit_mean_2: -1.4576 ± 2.1531	logit_mean_3: -4.3313 ± 2.8913	
+cov_diag_0: 0.0003 ± 0.0014	cov_diag_1: 0.0003 ± 0.0015	cov_diag_2: 0.0003 ± 0.0015	cov_diag_3: 0.0005 ± 0.0018	
+cov_factor_0: 0.2585 ± 0.4999 	cov_factor_1: -0.2589 ± 0.6650	cov_factor_2: 0.0289 ± 0.3968 	cov_factor_3: -0.4567 ± 0.4090	
+
+
+---------------------------------------------------------------------------random_seed_1: 2021-02-05 16:49:59,285---------------------------------------------------------------------------
+Training epoch 3/19 completed in 68s
+loss: 568949.0000	  
+FOREGROUND          :	accuracy: 0.9093	   precision: 0.8455	  recall: 0.7296	     f1_score: 0.7296	   
+NECROTIC CORE       :	accuracy: 0.8614	   precision: 0.6503	  recall: 0.4608	     f1_score: 0.4608	   
+OEDEMA              :	accuracy: 0.8614	   precision: 0.6133	  recall: 0.5891	     f1_score: 0.5891	   
+ENHANCING TUMOR     :	accuracy: 0.8614	   precision: 0.7558	  recall: 0.7338	     f1_score: 0.7338	   
+logit_mean_0: 3.0950 ± 3.5234 	logit_mean_1: -3.8921 ± 2.6761	logit_mean_2: -2.0384 ± 2.3030	logit_mean_3: -4.6372 ± 3.1062	
+cov_diag_0: 0.0001 ± 0.0007	cov_diag_1: 0.0001 ± 0.0007	cov_diag_2: 0.0001 ± 0.0007	cov_diag_3: 0.0001 ± 0.0009	
+cov_factor_0: 0.3276 ± 0.3232 	cov_factor_1: -0.3063 ± 0.5679	cov_factor_2: -0.5755 ± 0.4880	cov_factor_3: -0.1450 ± 0.3693	
+
+

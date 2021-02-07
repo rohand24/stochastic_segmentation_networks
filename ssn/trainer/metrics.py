@@ -2,6 +2,7 @@ from abc import ABC
 import numpy as np
 import torch
 import torchvision
+import pdb
 
 
 def to_np_cpu(tensor):
@@ -62,6 +63,7 @@ class MultiChannelTensorDistribution(Metric):
 
     def increment(self, model_state):
         tensor = model_state[self.name].detach()
+#         pdb.set_trace()
         for i in range(self.num_maps):
             t = tensor[:, i]
             self.running_value[i][0] += t.numel()
@@ -122,6 +124,7 @@ class RunningConfusionMatrix(Metric):
         self.eye = torch.eye(num_classes, num_classes, device=device)
 
     def compute_confusion_matrix(self, labels, preds):
+#         pdb.set_trace()
         return torch.einsum('nd,ne->de', self.eye[labels.flatten()], self.eye[preds.flatten()])
 
     def increment(self, model_state):
